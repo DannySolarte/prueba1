@@ -1,0 +1,10 @@
+//let numero1 = 23;
+//let numero2 = 52;
+let nombre = prompt ('Nombre')
+let apellido = prompt ('Apellido')
+let empresa = prompt ('Empresa')
+let cargo = prompt ('Cargo')
+let usuario = prompt ('Nombre de usuario')
+let contraseña = prompt ('Contraseña')
+let correo = prompt ('Correo electronico')
+document.getElementById('contenido').innerHTML=`Bienvenido ${nombre} ${apellido}, la empresa en la cual trabjas es ${empresa}, con el cargo de ${cargo}, tu usuario es ${usuario}, con el correo registrado ${correo}`
